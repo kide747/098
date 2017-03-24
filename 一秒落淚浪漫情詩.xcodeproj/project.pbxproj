@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					144A37041E84BF6500DFA6C0 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GFB265MJJ3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GFB265MJJ3;
 				INFOPLIST_FILE = "一秒落淚浪漫情詩/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.--------";
@@ -272,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GFB265MJJ3;
 				INFOPLIST_FILE = "一秒落淚浪漫情詩/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.--------";
@@ -299,6 +302,7 @@
 				144A37191E84BF6500DFA6C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
