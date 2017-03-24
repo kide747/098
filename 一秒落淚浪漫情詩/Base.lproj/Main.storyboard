@@ -20,12 +20,119 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="NJb-sF-cGl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_2488 拷貝" translatesAutoresizingMaskIntoConstraints="NO" id="5VU-eS-ira">
+                                <rect key="frame" x="169" y="61" width="190" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87706330128205123" green="0.86358620998035895" blue="0.29418880368515399" alpha="0.92629310344827587" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="《詩經．國風．邶風．靜女》" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4RA-Uw-HLg">
+                                <rect key="frame" x="12" y="200" width="350" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hX1-Mu-laT">
+                                <rect key="frame" x="46" y="293" width="283" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">靜女其姝，俟我於城隅。
+愛而不見，搔首踟躕。
+
+靜女其孌，貽我彤管。
+彤管有煒，說懌女美。
+
+自牧歸荑，洵美且異。
+匪女之為美，美人之貽。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.87706330128205123" green="0.38369254555435195" blue="0.32584175024568401" alpha="0.92629310344827587" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.98339759269270888" green="1" blue="0.98103737948246084" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="84" y="37.331334332833585"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6Qo-YQ-Szi">
+            <objects>
+                <viewController id="TJo-OI-odW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xet-s0-1Us"/>
+                        <viewControllerLayoutGuide type="bottom" id="2hs-5D-cRd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ydm-3M-SYB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="tz9-hK-QjF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_2488 拷貝" translatesAutoresizingMaskIntoConstraints="NO" id="9kC-k5-ZBJ">
+                                <rect key="frame" x="169" y="53" width="190" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87706330129999999" green="0.86358621000000002" blue="0.2941888037" alpha="0.92629310340000004" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GCq-pi-fS5">
+                                <rect key="frame" x="9" y="183" width="350" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">幽狐
+作詞：胡桃夾子
+編曲：劉沛</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJm-XJ-tsl">
+                                <rect key="frame" x="21" y="217" width="327" height="470"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">古柏青幽幽 陰下環珮伶仃歌
+誰遣山風迎嘉客
+遺君菟兒絲 點點芳馨附松蘿
+好女亦慕少艾色
+輕啟唇 木蘭減字調般涉
+心相悅 心相悅 情滿頜
+復子衿 不期君以靜女和
+心歡喜 心歡喜 聲愈樂
+
+竟已是霞送日落
+良辰倏忽盡 執手兩不捨
+拆舊穗綰成新結 繫於綬側
+望君珍之如惜我
+極秋水 青驄絕塵早不得
+意重重 意重重 復長歌
+歌高唐 忽恐緣如巫山一刻
+意遲遲 意遲遲 聲漸澀
+溺于思 夜半回回夢繼昨
+訴別情 訴別情 淚潸落
+清晌起 才記除卻乞巧難見飛駁
+自笑癡 自笑癡 挑紅羅
+自笑癡 自笑癡
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RJs-H7-jKt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="805.60000000000002" y="36.431784107946029"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IMG_2488 拷貝" width="160" height="120"/>
+        <image name="background3" width="750" height="1334"/>
+    </resources>
 </document>
